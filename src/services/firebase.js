@@ -4,14 +4,16 @@ import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCEbLM3QPfuBZYuP1uIp4wTaP9YDfGzKkw",
-    authDomain: "resume-generator-pro.firebaseapp.com",
-    projectId: "resume-generator-pro",
-    storageBucket: "resume-generator-pro.firebasestorage.app",
-    messagingSenderId: "779345013076",
-    appId: "1:779345013076:web:dc2c4a1a6953c72b0480c1",
-    measurementId: "G-1YWY69DPE9"
+    apiKey: "AIzaSyDjLKJHyrtRzkiQ-AYc3k-0ik2Ir7nUca4",
+    authDomain: "resume-generator-ba50b.firebaseapp.com",
+    databaseURL: "https://resume-generator-ba50b-default-rtdb.firebaseio.com",
+    projectId: "resume-generator-ba50b",
+    storageBucket: "resume-generator-ba50b.firebasestorage.app",
+    messagingSenderId: "864365980136",
+    appId: "1:864365980136:web:c417e92ad693e6f47c1c5d",
+    measurementId: "G-9TQQEPGR99"
 };
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
